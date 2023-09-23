@@ -1,0 +1,183 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    background-color: rgb(182, 20, 20);
+    height: 10vh;
+}
+
+.footer {
+    background-color: rgb(182, 20, 20);
+    height: 10vh;
+}
+
+h1 {
+    text-align: center;
+}
+
+#text p {
+    text-align: center;
+    font-size: 1.5em;
+    line-height: 1.4em;
+}
+
+.btn {
+    padding: 1em 2em;
+    margin: 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: lightgrey;
+    font-weight: bold;
+}
+
+.btn:hover {
+    background-color: rgb(236, 62, 199);
+    cursor: pointer;
+}
+
+.main-btn {
+    padding: 1em 2em;
+    margin: 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: lightgrey;
+    font-weight: bold;
+}
+
+.main-btn:hover {
+    background-color: grey;
+    cursor: pointer;
+}
+
+.btn-div {
+    display: flex;
+    justify-content: center;
+}
+
+.content {
+    border-right: 1px solid rgb(190, 190, 190);
+    border-left: 1px solid rgb(190, 190, 190);
+    background-color: #eee;
+    padding: 2em;
+    margin: 0 auto;
+    height: 1100px;
+    width: 800px;
+}
+
+.clicked-wrong {
+    padding: 1em 2em;
+    margin: 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: rgb(173, 10, 10);
+    font-weight: bold;
+}
+
+.clicked-right {
+    padding: 1em 2em;
+    margin: 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: rgb(10, 172, 10);
+    font-weight: bold;
+}
+
+.hidden {
+    display: none;
+}
+
+.img {
+    width: 200px;
+    border: 1px solid grey;
+    background-color: darkgray;
+}
+
+.img:hover {
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.2);
+}
+
+.pictures1 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.pictures2 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.pictures3 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.picture-text,
+.form-text {
+    font-size: 1.5em;
+    line-height: 1.4em;
+}
+
+.form-text {
+    text-align: center;
+}
+
+.form {
+    margin: 1em;
+}
+
+.form:hover {
+    cursor: pointer;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+}
+
+.rec {
+    height: 100px;
+    width: 200px;
+}
+
+.blue-tri {
+    width: 0;
+    height: 0;
+    border-left: 75px solid transparent;
+    border-right: 75px solid transparent;
+    border-bottom: 100px solid blue;
+}
+
+.red-tri {
+    width: 0;
+    height: 0;
+    border-left: 75px solid transparent;
+    border-right: 75px solid transparent;
+    border-bottom: 100px solid red;
+}
+
+.green-tri {
+    width: 0;
+    height: 0;
+    border-left: 75px solid transparent;
+    border-right: 75px solid transparent;
+    border-bottom: 100px solid green;
+}
+
+.green {
+    background-color: green;
+}
+
+.red {
+    background-color: red;
+}
+
+.black {
+    background-color: black;
+}
+
+.blue {
+    background-color: blue;
+}
